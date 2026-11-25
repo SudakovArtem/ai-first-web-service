@@ -22,7 +22,13 @@ logs
 
 # Local env files
 .env
+.env.*
+!.env.example
 
 # Linters
 .eslintcache
 .stylelintcache
+
+# Check outputs
+coverage/
+*.tsbuildinfo
